@@ -84,13 +84,13 @@
 }
 .ex-10-icon {
     font-size: 60px;
-    animation-name: rotate;
+    animation-name: rotazione1;
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     
 }
-@keyframes rotate{
+@keyframes rotazione1{
     
         0% {
             transform: rotate(1turn);
@@ -101,9 +101,9 @@
    
 }
 .ex-11-icon:hover{
-    animation: rotate 1.5s linear;
+    animation: rotazione2 1.5s linear;
 }
-@keyframes rotate{
+@keyframes rotazione2{
     0% {
         transform: rotate(0);
     }
@@ -135,6 +135,18 @@
     width: 60px;
     height: 20px;
 }
+/* .ex-12-top-white, .ex-12-bottom-white:hover{
+    animation: lineare3 1s linear;
+}
+@keyframes lineare3{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(50deg);
+    }
+} */
+
 .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
     bottom: -10px;
